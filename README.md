@@ -45,7 +45,7 @@ Recap does this all for you - you just add a class decorator, and then use mark
 instead of your original decorator.
 
 ```python
-@recapture(callback)  # Use your existing decorator here!
+@recapture(callback)  # Pass your existing decorator here!
 class SomeClass:
     @mark(widget, signal)  # Then replace calls to your decorator with `mark()`.
     def do_something(self):
