@@ -10,7 +10,7 @@ look at [the example](example.py).
 The problem
 -----------
 
-It is semantically pleasing to use decorators to 'register' functions - for
+It is syntactically pleasing to use decorators to 'register' functions - for
 example, if you have a GUI toolkit where whenever someone presses a button, a
 function should be called, it reads nicely to have a decorator that registers
 the function as a callback for a given event and widget:
